@@ -1,0 +1,404 @@
+/* head  */
+* { margin: 0; padding: 0;}
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    background-color: #175481;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    width: 10%;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+.nav-container{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 1.1rem;
+    text-decoration: none;
+    
+}
+
+.bar, .bar2, .bar3, .bar4{
+    
+    background-color: #0B2D46;
+    border-radius: 50px 50px 50px 50px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+
+
+
+/* section 1 */
+
+.Seccion1{
+    background-color: #74A7CD;
+}
+
+.tituloprin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {box-sizing:border-box}
+
+.mySlides { 
+    display:none;
+  }
+
+
+.slideshow-container {
+    max-height: 50;
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+/* section 2 */
+
+.section2{
+    background-color: #9ea4a5;
+}
+
+.videosq{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.titulo2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;   
+    color: whitesmoke;
+    font-family: Arial, Helvetica;
+}
+
+.videosec {
+    display:row;
+    flex-direction: row;
+    justify-content:right;
+    align-items:flex-start;
+    position: relative;
+    right: -100px;
+    top: -10px;
+}
+
+.test1 {
+    background-color: #9ea4a5;
+}
+
+.section2t {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center; 
+    font-size: 1.9rem;
+    position: relative;
+    right: 200px;
+    top: -10px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica;
+}
+
+/* section 3 */
+
+.section3, .test2{
+    background-color: #505c55;
+}
+
+
+.titulo3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem; 
+    font-family: Arial, Helvetica;
+    color: whitesmoke;
+    font-family: Arial, Helvetica;
+}
+
+.square{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.sub1, .sub2, .sub3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem; 
+    color: whitesmoke;
+    font-family: Arial, Helvetica;
+}
+
+.tex1, .tex2, .tex3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica;
+}
+
+.img1, .img2, .img3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+
+/* section 4 */
+
+.firsts, .seconds, .thirds{
+    color: whitesmoke;
+}
+
+.section4{
+    background-color: #181717;
+}
+
+.titulo4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;  
+    font-family: Arial, Helvetica;
+    color: whitesmoke;
+}
+
+.test3{
+    background-color: #181717;
+}
+
+.square5, .square6{
+    background-color: #181717;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.map {
+    width: 5%;
+    height: 5%;
+    position: relative;
+    right: 270px;
+}
+
+.form {
+    position: relative;
+    right: -85px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica;
+}
+
+.test {
+    background-color: #181717 ;
+}
+
+/* footer */
+
+.footer {
+    background-color: #181717 ;
+    color: whitesmoke;
+    font-family: Arial, Helvetica;
+    margin-top: 0.03%;;
+}
+
+@media(min-width: 1024px){
+    .nav-container{
+        flex-direction: row;
+        padding: 0.2em;
+    }
+
+    .bar,  .bar2, .bar3, .bar4{
+        font-size: 1.2rem;
+        font-weight: lighter;
+    }
+    
+    .titulo2{
+        font-size: 2.8rem;
+    }
+
+    .section2t{
+        color: rgb(63, 58, 58);
+        font-size: 2.5rem;
+        top: -0.5em;
+    }
+
+    .videosq{
+        height: 150%;
+    }
+
+  
+  }
+  
+  @media(min-width: 768px) and (max-width: 1023px){
+
+    .nav-container{
+        position: relative;
+        right: 4rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section2t{ 
+        right: 5.7em;
+    }
+
+    .section3, .test2{
+        background-color: #3c413e;
+    }
+
+    .videosq{
+        position: relative;
+        width: 125%;
+        height: 100%;
+        right: 4em;
+    }
+
+    .map
+    {
+        right: 10em;
+        top: 0.5em;
+    }
+
+    .form{
+        right: 5em;
+    }
+    }
+
+  
+    
+  @media(max-width: 767px){
+    
+    .header-container{
+        width: auto;
+        height: auto;
+    }
+
+    .nav-container{
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .header-container{
+          flex-direction: column;
+      }
+
+      .logo{
+        position: relative;
+        right: 80px;
+    }
+
+    .bar{
+        position: relative;
+        right: 1em;
+    }
+
+
+    .bar3{
+        position: relative;
+        right: -1em;
+    }
+
+    .bar4{
+        position: relative;
+        right: -2em;
+    }
+
+    .titulo2{
+        position: relative;
+        top: 10px;
+    }
+
+    .videosq{
+        position: relative;
+        height: 100%;
+        width: 150%;
+        right: 4em;
+    }
+
+    .square5{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .firsts, .seconds, .thirds{
+        align-items: center;
+    }
+
+    .section2t{
+        display: none;
+    }
+
+    .square6{
+        flex-direction: column;
+    }
+
+    .square{
+        flex-direction: column;
+    }
+
+    .map{
+        right: 9em;
+    }
+    
+    .form{
+        right: 1em;
+    }
+    }    
